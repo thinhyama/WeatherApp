@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_gps"
+            android:icon="@drawable/gps"
+            android:title="Vị trí cần xem thời tiết" />
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/ic_chat"
+            android:title="Thông tin ứng dụng" />
+        <item
+            android:id="@+id/nav_bc"
+            android:icon="@drawable/fail"
+            android:title="Báo cáo" />
+        <item
+            android:id="@+id/nav_csd"
+            android:icon="@drawable/about"
+            android:title="Cách sử dụng" />
+        <item
+            android:id="@+id/nav_ws"
+            android:icon="@drawable/web"
+            android:title="Website thời tiết" />
+    </group>
+</menu>

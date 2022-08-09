@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradien_activity">
+
+    <TextView
+        android:textSize="16dp"
+        android:id="@+id/txt_tk"
+        android:textColor="#0F1010"
+        android:text="Để tìm kiếm thông tin thời tiết của 1 tỉnh thành bất kì, hãy nhập tên tỉnh thành đó và bấm nút search ở ngay cạnh"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/img_tk"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/txt_tk"
+        android:paddingTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/tpsearch" />
+
+    <TextView
+        android:textSize="16dp"
+        android:id="@+id/txt_nd"
+        android:textColor="#0F1010"
+        android:text="Để tìm kiếm thông tin thời tiết các ngày tiếp theo của tỉnh thành vừa chọn hãy bấm nút Các ngày tiếp theo "
+        android:layout_width="match_parent"
+        android:layout_below="@+id/img_tk"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/img_nd"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/txt_nd"
+        android:paddingTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/nextday" />
+
+    <TextView
+        android:textSize="16dp"
+        android:id="@+id/txt_mn"
+        android:textColor="#0F1010"
+        android:text="Bấm menu để xem nhiều tính năng hơn"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/img_nd"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/img_mn"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/txt_mn"
+        android:paddingTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/btnmenu" />
+
+    <TextView
+        android:textSize="16dp"
+        android:id="@+id/txt_tmn"
+        android:textColor="#0F1010"
+        android:text="Chọn chức năng cần dùng và tiến hành tra cứu"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/img_mn"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/img_tmn"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_below="@+id/txt_tmn"
+        android:paddingTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/menuu" />
+</RelativeLayout>

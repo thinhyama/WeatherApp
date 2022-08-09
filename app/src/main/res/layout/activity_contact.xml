@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradien_activity">
+
+    <ImageView
+        android:id="@+id/img_no_connection"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:paddingTop="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:id="@+id/txt_tt"
+        android:textColor="#FFF"
+        android:text="Thông tin ứng dụng"
+        android:layout_below="@+id/img_no_connection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textAlignment="center"
+        android:textSize="55sp"
+        android:id="@+id/txt_1"
+        android:textColor="#8BC34A"
+        android:text="Thời tiết"
+        android:layout_below="@+id/txt_tt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:id="@+id/txt_2"
+        android:textColor="#FF5722"
+        android:text="Phiên bản 1.0"
+        android:layout_below="@+id/txt_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:id="@+id/txt_3"
+        android:textColor="#FF5722"
+        android:text="Đã cập nhật phiên bản mới nhất"
+        android:layout_below="@+id/txt_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/custom_button"
+        android:gravity="center"
+        android:layout_below="@+id/txt_tt"
+        android:text="Chính sách bảo mật"
+        android:textColor="@color/TextColor" />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_1"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_button"
+        android:gravity="center"
+        android:text="Giấy phép nguồn mở"
+        android:textColor="@color/TextColor" />
+</RelativeLayout>
